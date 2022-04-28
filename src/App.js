@@ -1,12 +1,12 @@
 import './App.css';
-import { foods } from './food-data';
-import FoodList from './foodList';
-import { drinks } from './drinks-data';
-import DrinkList from './drinksList';
-import { animals } from './animals-data';
-import AnimalList from './animalList';
-import { books } from './books-data';
-import BookList from './BookList';
+import { foods } from './food-data.js';
+import FoodList from './FoodList.js';
+import { drinks } from './drinks-data.js';
+import DrinkList from './DrinksList.js';
+import { animals } from './animals-data.js';
+import AnimalList from './AnimalList.js';
+import { books } from './books-data.js';
+import BookList from './BookList.js';
 // import your arrays here
 
 function App() {

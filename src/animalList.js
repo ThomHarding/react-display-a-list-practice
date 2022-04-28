@@ -1,4 +1,4 @@
-import Animal from './animalItem';
+import Animal from './AnimalItem';
 
 export default function AnimalList({ animals }) {
   return (
