@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +37,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.food-card {
+  background-color: lightblue;
+  border: solid 1px black;
+}
+
+.drink-card {
+  background-color: olivedrab;
+  border: solid 1px black;
+}
+
+.animal-card {
+  background-color: orange;
+  border: solid 1px black;
+}
+
+.book-card {
+  background-color: plum;
+  border: solid 1px black;
 }
