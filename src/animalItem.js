@@ -6,9 +6,9 @@ export default function Animal({ name, biome, colors }) {
       <p>{name}</p>
       <p>{biome}</p>
       <ul className='colors'>
-        {
-          colors.map(color => <li key={color.name}>{color.name}</li>)
-        }
+        <li>{colors.color1}</li>
+        <li>{colors.color2}</li>
+        <li>{colors.color3}</li>
       </ul>
     </div>  
   );

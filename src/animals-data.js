@@ -2,56 +2,32 @@ export const animals = [
   {
     name: 'lion',
     biome: 'savannah',
-    colors: [
+    colors: 
       {
-        'id': 0,
-        'name': 'yellow'
+        'color1': 'red',
+        'color2': 'yellow',
+        'color3': 'green'
       },
-      {
-        'id': 1,
-        'name': 'brown'
-      },
-      {
-        'id': 2,
-        'name': 'red'
-      }
-    ],
   },
   {
     name: 'wolf',
     biome: 'forest',
-    colors: [
+    colors: 
       {
-        'id': 0,
-        'name': 'grey'
+        'color1': 'grey',
+        'color2': 'black',
+        'color3': 'white'
       },
-      {
-        'id': 1,
-        'name': 'black'
-      },
-      {
-        'id': 2,
-        'name': 'white'
-      }
-    ],
   },
   {
     name: 'octopus',
     biome: 'ocean',
-    colors: [
+    colors: 
       {
-        'id': 0,
-        'name': 'purple'
+        'color1': 'purple',
+        'color2': 'yellow',
+        'color3': 'black'
       },
-      {
-        'id': 1,
-        'name': 'yellow'
-      },
-      {
-        'id': 2,
-        'name': 'black'
-      }
-    ],
   },
 ];
     
