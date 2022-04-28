@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import { foods } from './food-data';
 // import your arrays here
 
 function App() {
   return (
     <div className="App">
-        Render all your lists here. Pass the arrays as props.
+        <FoodList foods={foods}/>
     </div>
   );
 }
