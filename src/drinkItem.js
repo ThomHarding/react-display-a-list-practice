@@ -1,4 +1,4 @@
-export default function drink({ drink }) {
+export default function Drink({ drink }) {
     return (
       <div className='drink-card'>
         <p>{drink}</p>

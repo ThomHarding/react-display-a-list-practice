@@ -1,4 +1,4 @@
-export default function food({ food }) {
+export default function Food({ food }) {
   return (
     <div className='food-card'>
       <p>{food.name}</p>

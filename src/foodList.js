@@ -1,11 +1,11 @@
-import food from "./foodItem";
+import Food from './FoodItem';
 
-export default function foodList({ foods }) {
-    return (
-      foods.map((food) => 
-        <Food
-          key={food.name}
-          food={food} />
-      )
-    );
+export default function FoodList({ foods }) {
+  return (
+    foods.map((food) => 
+      <Food
+        key={food.name}
+        food={food} />
+    )
+  );
 }

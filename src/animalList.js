@@ -1,11 +1,11 @@
-import animal from "./animalItem";
+import Animal from './animalItem';
 
-export default function animalList({ animals }) {
-    return (
-      animals.map((animal) => 
-        <Animal
-          key={animal.name}
-          animal={animal} />
-      )
-    );
+export default function AnimalList({ animals }) {
+  return (
+    animals.map((animal) => 
+      <Animal
+        key={animal.name}
+        animal={animal} />
+    )
+  );
 }
