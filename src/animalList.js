@@ -5,9 +5,7 @@ export default function AnimalList({ animals }) {
     animals.map((animal) => 
       <Animal
         key={animal.name}
-        biome={animal.biome}
-        colors={animal.colors}
-        animal={animal} />
+        {...animal} />
     )
   );
 }

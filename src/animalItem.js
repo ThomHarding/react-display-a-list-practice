@@ -1,8 +1,15 @@
-export default function Animal({ animal }) {
+
+
+export default function Animal({ name, biome, colors }) {
   return (
     <div className='animal-card'>
-      <p>{animal.name}</p>
-      <p>{animal.biome}</p>
+      <p>{name}</p>
+      <p>{biome}</p>
+      <ul className='colors'>
+        {
+          colors.map(color => <li key={color}>{color.name}</li>)
+        }
+      </ul>
     </div>  
   );
 }
