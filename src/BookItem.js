@@ -3,7 +3,7 @@ export default function Book({ book }) {
     <div className='book-card'>
       <p>{book.title}</p>
       <p>{book.author}</p>
-      <p>{book.characters.map(character => <li key={character}>{character}</li>)}</p>
+      <p>Characters:{book.characters.map(character => <li key={character}>{character}</li>)}</p>
     </div>  
   );
 }
