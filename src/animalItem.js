@@ -7,7 +7,7 @@ export default function Animal({ name, biome, colors }) {
       <p>{biome}</p>
       <ul className='colors'>
         {
-          colors.map(color => <li key={color}>{color.name}</li>)
+          colors.map(color => <li key={color.name}>{color.name}</li>)
         }
       </ul>
     </div>  

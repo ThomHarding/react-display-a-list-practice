@@ -7,7 +7,6 @@ export const books = [
       'Mildred Montag',
       'Clarisse McClellan',
       'Captain Beatty',
-      'Clarisse McClellan'
     ],
   },
   {

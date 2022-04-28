@@ -4,7 +4,7 @@ export default function DrinkList({ drinks }) {
   return (
     drinks.map((drink) => 
       <Drink
-        key={drink.name}
+        key={drink}
         drink={drink} />
     )
   );

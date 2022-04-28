@@ -4,7 +4,7 @@ export default function BookList({ books }) {
   return (
     books.map((book) => 
       <Book
-        key={book.name}
+        key={book.title}
         book={book} />
     )
   );
