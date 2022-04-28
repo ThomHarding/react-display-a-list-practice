@@ -1,7 +1,9 @@
+import drink from "./drinkItem";
+
 export default function drinkList({ drinks }) {
     return (
       drinks.map((drink) => 
-        <drinkItem
+        <Drink
           key={drink.name}
           drink={drink} />
       )
