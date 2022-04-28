@@ -4,7 +4,9 @@ import FoodList from './foodList';
 import { drinks } from './drinks-data';
 import DrinkList from './drinksList';
 import { animals } from './animals-data';
-import animalList from './animalList';
+import AnimalList from './animalList';
+import { books } from './books-data';
+import BookList from './BookList';
 // import your arrays here
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
       <FoodList foods={foods}/>
       <DrinkList drinks={drinks}/>
       <AnimalList animals={animals}/>
+      <BookList books={books}/>
     </div>
   );
 }
