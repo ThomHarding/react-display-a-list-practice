@@ -1,7 +1,7 @@
 export default function drinkList({ drinks }) {
     return (
       drinks.map((drink) => 
-        <drink
+        <drinkItem
           key={drink.name}
           drink={drink} />
       )

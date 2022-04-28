@@ -9,6 +9,7 @@ function App() {
     <div className="App">
         <FoodList foods={foods}/>
         <DrinkList drinks={drinks}/>
+        
     </div>
   );
 }
